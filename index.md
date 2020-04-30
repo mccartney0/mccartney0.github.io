@@ -1,4 +1,4 @@
-<head>
+<html><head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -213,3 +213,4 @@
 		})
 	</script>
 </body>
+</html>
