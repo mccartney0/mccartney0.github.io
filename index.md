@@ -187,11 +187,11 @@
 		<div class="container">
 			<div class="box-footer">
 				<h2>Endereço</h2>
-				<p>Rua Rafael Bandeira, 328 - Centro, Florianópolis/SC, 88015-450, Brasil</p>
+				<p>Rua Jaraguá, 999 - São Paulo/SP, 07714-660, Brasil</p>
 			</div>
 			<div class="box-footer">
 				<h2>Telefone</h2>
-				<p>(48)99901-3620</p>
+				<p>(11)98084-0854</p>
 			</div>
 			<div class="box-footer">
 				<h2>Receba nossas news</h2>
