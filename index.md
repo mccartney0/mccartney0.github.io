@@ -34,8 +34,8 @@
 				<div class="clear"></div>
 			</div><!--menu-topo-->
 			<div class="chamada-header">
-				<!--<h2></h2>-->
-				<p>G. Roma <br> Técnica Vocal e Música</p>
+				<h2>G. Roma</h2>
+				<p> <br> Técnica Vocal e Música</p>
 			</div>
 		</div><!--container-->
 	</div>
