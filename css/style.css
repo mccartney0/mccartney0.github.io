@@ -75,6 +75,10 @@ nav.mobile{
 	float: right;
 }
 
+h1 a {
+	color: blue;
+}
+
 nav.mobile ul{
 	position: absolute;
 	left: 0;
