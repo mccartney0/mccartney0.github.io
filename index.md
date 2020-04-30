@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
@@ -215,4 +213,3 @@
 		})
 	</script>
 </body>
-</html>
