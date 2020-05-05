@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 </head>
 <body>
-	<header>
+	<div class="headerH">
 		<div class="container">
 			<div class="menu-topo">
 				<div class="logo"></div>
@@ -39,7 +39,7 @@
 				<p>Nós desenvolvemos a sua voz.</p>
 			</div>
 		</div>
-	</header>
+	</div>
 	<section class="descricao-danki">
 		<div class="container">
 			<p>Com grande experiência em voz, na G.ROMA você aprende a arte da técnica vocal para canto lírico e canto popular.</p>
