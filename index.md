@@ -38,27 +38,23 @@
 				<h2>G. Roma <br> Técnica Vocal e Música</h2>
 				<p>Nós desenvolvemos a sua voz.</p>
 			</div>
-		</div><!--container-->
+		</div>
 	</header>
-
 	<section class="descricao-danki">
 		<div class="container">
 			<p>Com grande experiência em voz, na G.ROMA você aprende a arte da técnica vocal para canto lírico e canto popular.</p>
 		</div>
 	</section>
-
 	<section class="descricao-danki2">
 		<div class="container">
 			<div class="texto-descricao">
 				<h3>Marque já sua aula experimental e entre nesse fantástico mundo da voz.</h3>
 				<p>Converse com a nossa equipe ainda hoje e crie o hábito de estar sempre praticando!</p>
 			</div>
-
 			<img alt="Trabalho danki" title="Trabalho danki" src="images/bg2%20(3).jpg" />
 			<div class="clear"></div>
 		</div>
 	</section>
-
 	<section class="descricao-danki3">
 		<div class="container">
 			<div class="box-depoimento">
@@ -68,14 +64,12 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="servicos">
 		<div class="container">
 			<div class="title-servicos">
 				<h3>Como podemos ajudar sua empresa<br /><i class=" fa fa-angle-down"></i></h3>
 			</div>
 			<div class="flex-servicos">
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img3.jpg" />	
@@ -86,8 +80,6 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
-
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img1.jpg" />	
@@ -98,8 +90,6 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
-
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img2.jpg" />	
@@ -110,7 +100,6 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->	
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img4.jpg" />	
@@ -121,8 +110,6 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
-
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img5.jpg" />	
@@ -133,7 +120,6 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
-
 			<div class="space-servico">
 				<div class="box-servico">
 				<img src="images/img6.jpg" />	
@@ -145,12 +131,9 @@
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->					
-
-			
 			</div><!--flex-servicos-->
 		</div>
 	</section>
-
 	<section class="portfolio">
 		<div class="container">
 			<h2>Algumas empresas que tivemos a oportunidade de atuar.</h2>
@@ -170,7 +153,6 @@
 			</div><!--empresas-->
 		</div>
 	</section>
-
 	<section class="formulario">
 		<div class="container">
 			<h2>Um orçamento ou alguma dúvida?</h2>
@@ -183,7 +165,6 @@
 			</form>
 		</div>
 	</section>
-
 	<footer>
 		<div class="container">
 			<div class="box-footer">
@@ -203,8 +184,6 @@
 			<div class="clear"></div>
 		</div>
 	</footer>
-
-	
 	<!----------------------------------------->
 	<!--TODO: CRIAR SCROLL PARA FORM DE CONTATO!-->
 	<script src="js/jquery.js"></script>
