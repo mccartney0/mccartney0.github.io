@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -10,7 +11,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 </head>
 <body>
-	<div class="headerH">
+	<header>
 		<div class="container">
 			<div class="menu-topo">
 				<div class="logo"></div>
@@ -19,7 +20,7 @@
 						<li><a href="">Professores</a></li>
 						<li><a href="">Galeria</a></li>
 						<li><a href="">Contato</a></li>
-						<li class="btn-nav"><a href="">Aula experimental</a></li>
+						<li class="btn-nav"><a href="">Nossa Missão</a></li>
 					</ul>
 				</nav><!--desktop-->
 				<nav class="mobile">
@@ -28,28 +29,28 @@
 						<li><a href="">Professores</a></li>
 						<li><a href="">Galeria</a></li>
 						<li><a href="">Contato</a></li>
-						<li class="btn-nav"><a href="">Aula experimental</a></li>
+						<li class="btn-nav"><a href="">Nossa Missão</a></li>
 					</ul>
 				</nav><!--mobile-->
 				<div class="clear"></div>
 			</div><!--menu-topo-->
 			<div class="chamada-header">
 				<h2>G. Roma <br> Técnica Vocal e Música</h2>
-				<p></p>
+				<p>Nós desenvolvemos a sua voz.</p>
 			</div>
 		</div><!--container-->
-	</div>
+	</header>
 
 	<section class="descricao-danki">
 		<div class="container">
-			<p>Com anos de experiência lecionando aulas de canto e instrumentos, a <b>G. Roma</b> traz técnicas que ajudam na sua respiração...</p>
+			<p>Com grande experiência em voz, na G.ROMA você aprende a arte da técnica vocal para canto lírico e canto popular.</p>
 		</div>
 	</section>
 
 	<section class="descricao-danki2">
 		<div class="container">
 			<div class="texto-descricao">
-				<h3>Nós somos uma escola de canto que também atua online. Trabalhamos sua postura, respiração e estética, sempre focado em música.</h3>
+				<h3>Marque já sua aula experimental e entre nesse fantástico mundo da voz.</h3>
 				<p>Converse com a nossa equipe ainda hoje e crie o hábito de estar sempre praticando!</p>
 			</div>
 
@@ -187,11 +188,11 @@
 		<div class="container">
 			<div class="box-footer">
 				<h2>Endereço</h2>
-				<p>Rua Jaraguá, 999 - São Paulo/SP, 07714-660, Brasil</p>
+				<p>Rua Rafael Bandeira, 328 - Centro, Florianópolis/SC, 88015-450, Brasil</p>
 			</div>
 			<div class="box-footer">
 				<h2>Telefone</h2>
-				<p>(11)98084-0854</p>
+				<p>(48)99901-3620</p>
 			</div>
 			<div class="box-footer">
 				<h2>Receba nossas news</h2>
