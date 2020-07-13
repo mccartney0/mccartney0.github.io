@@ -1,8 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>G Roma</title>
 	<meta charset="utf-8">
@@ -17,19 +18,17 @@
 				<div class="logo"></div>
 				<nav class="desktop">
 					<ul>
-						<li><a href="">Professores</a></li>
-						<li><a href="">Galeria</a></li>
-						<li><a href="">Contato</a></li>
-						<li class="btn-nav"><a href="">Nossa Missão</a></li>
+						<li><a href="#galeria">Galeria</a></li>
+						<li><a href="#contato">Contato</a></li>
+						<li class="btn-nav"><a href="#missao">Nossa Missão</a></li>
 					</ul>
 				</nav><!--desktop-->
 				<nav class="mobile">
-					<h3><i class="fa fa-bars"></i></h3>
+					<h3>|||<i class="fa fa-bars"></i></h3>
 					<ul>
-						<li><a href="">Professores</a></li>
-						<li><a href="">Galeria</a></li>
-						<li><a href="">Contato</a></li>
-						<li class="btn-nav"><a href="">Nossa Missão</a></li>
+						<li><a href="#galeria">Galeria</a></li>
+						<li><a href="#contato">Contato</a></li>
+						<li class="btn-nav"><a href="#missao">Nossa Missão</a></li>
 					</ul>
 				</nav><!--mobile-->
 				<div class="clear"></div>
@@ -45,38 +44,47 @@
 			<p>Com grande experiência em voz, na G.ROMA você aprende a arte da técnica vocal para canto lírico e canto popular.</p>
 		</div>
 	</section>
+	
 	<section class="descricao-danki2">
+		<div class="custom-shape-divider-top-1594682344">
+			<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+				<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+			</svg>
+		</div>
 		<div class="container">
 			<div class="texto-descricao"><br><br><br><br>
 				<h3>Marque já sua aula experimental e entre nesse fantástico mundo da voz.</h3><!--Levar para os Contatos-->
 				<p>Converse com a nossa equipe ainda hoje e crie o hábito de estar sempre praticando!</p>
 			</div>
-			<img alt="Trabalho danki" title="Trabalho danki" src="images/bg2%20(3).jpg" />
+				<a class="button" href="#contato">Marcar Aula</a> 
 			<div class="clear"></div>
 		</div>
 	</section>
+	<a href="" name="missao"></a>
 	<section class="descricao-danki3">
 		<div class="container">
 			<div class="box-depoimento">
-				<p>“Temos a Danki como parceiro estratégico nos nossos planejamento em plataforma digital. Sempre nos trazendo soluções inovadoras e adequadas às nossas necessidades e dos nossos clientes. Super recomendo!“</p>
+				<p>“Nossa missão é levar a arte e seus benefícios para nossos alunos através do canto, alimentando sua sensibilidade, seu raciocínio, criatividade, comunicação etc.
+					A música é uma linguagem, uma ciência que agrega tantas outras ciências.
+					Hora de colocar seu sonho em prática e isso começa por aqui!“</p>
 				<br/>
-				<p><b>Glaúcio - Voodoo Branded Content</b></p>
+				<p><b>Gabriel Roma - Cantor Lírico</b></p>
 			</div>
 		</div>
 	</section>
 	<section class="servicos">
 		<div class="container">
 			<div class="title-servicos">
-				<h3>Como podemos ajudar sua empresa<br /><i class=" fa fa-angle-down"></i></h3>
+				<a href="" name="galeria"></a><h3>Galeria<br /></i></h3>
 			</div>
 			<div class="flex-servicos">
 			<div class="space-servico">
 				<div class="box-servico">
-				<img src="images/img3.jpg" />	
+				<img class="size" src="images/img3.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>E-mail Marketing</h2>
-							<p>Aprenda como utilizar e-mail marketing na sua empresa para alavancar suas vendas de uma forma automatizada.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
@@ -84,9 +92,9 @@
 				<div class="box-servico">
 				<img src="images/img1.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>Páginas de Venda</h2>
-							<p>Criamos páginas de venda 100% otimizadas e voltadas para conversões. Solicite um orçamento e tenha hoje mesmo a sua página para vender na internet.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
@@ -94,9 +102,9 @@
 				<div class="box-servico">
 				<img src="images/img2.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>Páginas de Captura e Inscrição</h2>
-							<p>Capture o e-mail dos visitantes em seu site e crie uma base de leads para sua empresa.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->	
@@ -104,9 +112,9 @@
 				<div class="box-servico">
 				<img src="images/img4.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>SEO & Marketing de Conteúdo</h2>
-							<p>Aplicamos SEO no seu website para o mesmo ficar bem posicionado nos mecanismos de busca e ser achado facilmente.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
@@ -114,9 +122,9 @@
 				<div class="box-servico">
 				<img src="images/img5.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>ADWords & Facebook ADS</h2>
-							<p>Criamos campanhas altamente otimizadas para o seu negócio gerar mais vendas pelo menor custo.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->
@@ -124,19 +132,18 @@
 				<div class="box-servico">
 				<img src="images/img6.jpg" />	
 						<div class="box-servico-wraper">
-							<h2>Consultoria de Marketing Digital</h2>
-							<p>Precisa de ajuda e planejamento de marketing no seu negócio? Fale com a Danki Code, hoje mesmo, para
-							criarmos um plano de marketing a longo prazo e 100% voltado para vendas.</p>
-							<a href="#">Orçamento</a>
+							<h2>Gabriel</h2>
+							<p>Comentário </p>
+							<a href="#">Conhecer</a>
 						</div><!--box-servico-wraper-->
 				</div><!--box-servico-->
 			</div><!--space-servico-->					
 			</div><!--flex-servicos-->
 		</div>
 	</section>
-	<section class="portfolio">
+	<section class="comercial">
 		<div class="container">
-			<h2>Algumas empresas que tivemos a oportunidade de atuar.</h2>
+			<h2>Anúncios</h2>
 			<div class="empresas">
 				<div class="empresa-single">
 					<img src="images/bianchini.png" />
@@ -155,31 +162,29 @@
 	</section>
 	<section class="formulario">
 		<div class="container">
-			<h2>Um orçamento ou alguma dúvida?</h2>
-			<form>
-				<input type="text" name="nome" placeholder="Nome..." required>
-				<input type="text" name="email" placeholder="E-mail..." required>
-				<input type="text" name="telefone" placeholder="Telefone..." required>
-				<textarea name="mensagem" placeholder="Sua mensagem..."></textarea>
-				<input type="submit"  name="acao" value="Enviar!">
-			</form>
+			<div>
+				<h2>Entre em contato conosco e agende já sua aula</h2>
+			</div>
+			<div class="contact-us">
+				Converse conosco através do WhatsApp <a name="contato" href="https://api.whatsapp.com/send?phone=+5511997416619&text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20aula">Clique Aqui</a>
+			</div>
 		</div>
 	</section>
 	<footer>
 		<div class="container">
 			<div class="box-footer">
 				<h2>Endereço</h2>
-				<p>Rua Rafael Bandeira, 328 - Centro, Florianópolis/SC, 88015-450, Brasil</p>
+				<p>Rua -----------, --- - Jaraguá, São Paulo/SP, CEP, Brasil</p>
 			</div>
 			<div class="box-footer">
 				<h2>Telefone</h2>
-				<p>(48)99901-3620</p>
+				<p>(11)99741-6619</p>
 			</div>
 			<div class="box-footer">
-				<h2>Receba nossas news</h2>
-				<form>
-					<input placeholder="E-mail..." type="text" /><button type="submit"><i class="fa fa-paper-plane-o"></i></button>
-				</form>
+				<h2>Redes sociais</h2>
+				<a href="https://www.facebook.com/g.romamusica" target="_blank"><img src="assets/css/facebook.png" alt="Facebook"></a>
+				<a href="https://www.instagram.com/g.romamusica/" target="_blank"><img src="assets/css/instagram.png" alt="Instagram"></a>
+				<a href="https://www.youtube.com/user/Gabriel19935" target="_blank"><img src="assets/css/youtube.png" alt="Youtube"></a>
 			</div>
 			<div class="clear"></div>
 		</div>

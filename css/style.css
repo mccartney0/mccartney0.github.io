@@ -5,6 +5,10 @@
 	font-family: "Roboto";
 }
 
+a{
+	text-decoration: none;
+	color: rgb(85, 123, 165);
+}
 
 .container{
 	max-width: 1280px;
@@ -32,6 +36,7 @@ body{
 .headerH{
 	background-image: url('../images/bg.jpg');
 	min-height: 350px;
+	max-height: 550px;
 	padding:30px 0;
 	background-size: cover;
 	background-position: center;
@@ -115,9 +120,11 @@ nav.mobile a{
 
 div.chamada-header{
 	padding:110px 0;
+	max-height: 450px;
 }
 
 div.chamada-header h2{
+	margin-top: 150px;
 	font-size: 47px;
 	color: white;
 	font-weight: normal;
@@ -145,7 +152,9 @@ section.descricao-danki p{
 
 
 section.descricao-danki2{
-	padding: 50px 0;
+	padding: 120px 0;
+	height: 400px;
+	background-color: rgba(220, 220, 220, 0.37);
 }
 
 section.descricao-danki2 > .container{
@@ -172,28 +181,78 @@ section.descricao-danki2 > .container{
 	font-size: 15px;
 	line-height: 25px;
 }
-section.descricao-danki2 img{
-	width: 45%;
+
+.custom-shape-divider-top-1594682344 {
+    position: absolute;
+    top: 664px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1594682344 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-top-1594682344 .shape-fill {
+    fill: #FFFFFF;
+}
+
+section.descricao-danki2 .button{
 	float: left;
+	margin: 12% 0 0 15%;
 	max-width: 500px;
+	padding: 20px;
+
+	border: 2px solid #31475e;
+	/* #ddbf48; */
+	/* rgb(44, 148, 189); */
+	border-radius: 20px;
+	transition: .5s;
+
+
+}
+
+section.descricao-danki2 .button:hover{
+	float: left;
+	margin: 12% 0 0 15%;
+	max-width: 500px;
+	padding: 20px;
+
+	color: #ddbf48;
+	border: 2px solid #31475e;
+	/* #ddbf48; */
+	/* rgb(44, 148, 189); */
+	border-radius: 20px;
+
+	transition: .5s;
+	transform: scale(1.3);
+
 }
 
 section.descricao-danki3{
-	padding: 30px 0 60px 0; 
+	padding: 30px 0 150px 0; 
 }
 
 section.descricao-danki3 > .container{
 	max-width: 960px;
-	background-image: url('../images/bg2.jpg');
+	background-image: url('../assets/css/gabriel.jpg');
 	background-size: cover;
 	min-height: 350px;
+	height: 500px;
+	max-height: 800px;
 	position: relative;
 }
 
 .box-depoimento{
 	position: absolute;
 	left: 50%;
-	bottom:-30px;
+	bottom:-100px;
 	width: 70%;
 	max-width: 506px;
 	background: white;
@@ -209,6 +268,7 @@ section.descricao-danki3 > .container{
 
 section.servicos{
 	padding: 25px 0;
+	background-color: #31475e18;
 }
 
 section.servicos > .container{
@@ -249,6 +309,10 @@ section.servicos > .container{
 	width: 100%;
 }
 
+.box-servico .size{
+	max-height: 288px;
+}
+
 .box-servico-wraper{
 	padding: 20px;
 }
@@ -277,18 +341,18 @@ section.servicos > .container{
 	border-radius: 20px;
 }
 
-section.portfolio{
+section.comercial{
 	padding: 20px 0;
 	background: white;
 }
 
-section.portfolio h2{
+section.comercial h2{
 	text-align: center;
 	font-weight: normal;
 	color: #31475e;
 }
 
-section.portfolio > .container{
+section.comercial > .container{
 	max-width: 960px;
 	padding: 15px 0;
 	background-color: #f7f7f7;
@@ -318,6 +382,7 @@ section.portfolio > .container{
 
 section.formulario{
 	padding: 30px 0;
+	display: flex;
 }
 
 section.formulario h2{
@@ -326,45 +391,21 @@ section.formulario h2{
 	color: #31475e;
 }
 
-section.formulario form{
-	margin-top: 10px;
-}
-
 section.formulario > .container{
 	max-width: 960px;
 }
 
-section.formulario input[type=text]{
-	width: 100%;
-	height: 40px;
-	border-radius: 100px;
-	border:1px solid #ebebeb;
-	margin-top: 8px;
-	padding-left: 10px;
+.contact-us{
+	text-align: center;
+	margin-top: 30px;
+
+	padding: 50px;
+	height: 200px;
+	max-height: 300px;
 }
 
-section.formulario input[type=text]:focus{outline: 0;}
-
-section.formulario textarea{
-	width: 100%;
-	height: 120px;
-	resize: vertical;
-	border-radius: 20px;
-	border:1px solid #ebebeb;
-	margin-top: 8px;
-	padding: 10px;
-}
-
-section.formulario input[type=submit]{
-   width: 130px;
-  height: 38px;
-  color: white;
-  cursor: pointer;
-  border: 0;
-  margin-top: 10px;
-  border-radius: 100px;
-  background-color: #ff5f27;
-  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+.contact-us a{
+	color: rgb(15, 196, 24);
 }
 
 footer{
@@ -390,32 +431,10 @@ footer{
 	font-size: 15px;
 }
 
-.box-footer form{margin-top: 10px;}
-
-.box-footer button{
-	width: calc(20% - 10px);
-	margin-left: 10px;
-	max-width: 63px;
-	height: 43px;
-	border: 1px solid #31475e;
-	border-radius: 50px;
-	background: white;
-}
-
-.box-footer input[type=text]{
-width: 80%;
-padding-left: 10px;
-  max-width: 208px;
-  height: 43px;
-  border-radius: 100px;
-  background-color: #ffffff;
-  border: solid 1px #bfbfbf;
-}
-
-.box-footer input[type=text]:focus{outline: 0;}
-
-.box-footer button i{
-	color: #31475e;
+.box-footer a img{
+	margin-top: 10px;
+	margin-right: 6px;
+	max-width: 30px;
 }
 
 @media screen and (max-width: 1024px){
