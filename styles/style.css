@@ -67,6 +67,7 @@ nav.desktop li {
 nav.desktop a {
 	color: white;
 	text-decoration: none;
+	transition: .5s;
 }
 
 nav li.btn-nav {
