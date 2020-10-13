@@ -403,10 +403,12 @@ section.formulario {
 	display: flex;
 }
 
-section.formulario h2 {
+section.contato h2{
 	text-align: center;
 	font-weight: normal;
 	color: #31475e;
+	background-color: #31475e18;
+	padding: 20px;
 }
 
 section.formulario>.container {
@@ -414,20 +416,24 @@ section.formulario>.container {
 }
 
 .contact-us {
-	text-align: center;
-	margin-top: 30px;
-	padding: 50px;
-	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
 	max-height: 300px;
 	font-size: 20px;
 }
 
 .contact-us a {
 	color: rgb(15, 196, 24);
+	padding: 10px;
+	margin-left: 10px;
+	border: solid 1px rgb(15, 196, 24);
+	border-radius: 5px;
 }
 
 footer {
-	margin: 50px 0;
+	margin: 100px 0 50px 0;
 }
 
 .box-footer {
